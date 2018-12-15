@@ -2,6 +2,7 @@
         profiles:
                 active:
                 - dev
+# 测试
 ---
 server:
     port: 8001
