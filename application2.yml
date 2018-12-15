@@ -1,0 +1,17 @@
+﻿spring:
+        profiles:
+                active:
+                - dev
+---
+spring:
+        profiles: dev
+        application:
+                name: microservicecloud-config-hxb-dev
+---
+spring:
+        profiles: test  # 测试环境
+        application:
+                name: microservicecloud-config-hxb-test
+
+# 请保存为UTF-8的格式
+
